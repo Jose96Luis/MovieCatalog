@@ -41,4 +41,31 @@ class MovieService {
     }
 
     // Método similar para `fetchPopularMovies` y `fetchMovieDetail`
+    func fetchPopularMovies(page: Int = 1, completion: @escaping (Result<MovieResponse, Error>) -> Void) {
+        let urlString = "\(baseAPIURL)/movie/popular?language=en-US&page=\(page)&api_key=\(apiKey)"
+        guard let url = URL(string: urlString) else { return }
+        
+        urlSession.dataTask(with: url) { data, response, error in
+            if let error = error {
+                completion(.failure(error))
+                return
+            }
+            
+            guard let data = data else {
+                completion(.failure(NSError(domain: "", code: -1, userInfo: nil)))
+                return
+            }
+            
+            do {
+                let moviesResponse = try self.jsonDecoder.decode(MovieResponse.self, from: data)
+                DispatchQueue.main.async {
+                    completion(.success(moviesResponse))
+                }
+            } catch {
+                completion(.failure(error))
+            }
+        }.resume()
+    }
+
+    
 }

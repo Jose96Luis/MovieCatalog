@@ -16,6 +16,7 @@
 		13A4FCCA2B96DFC800F44B5F /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A4FCC92B96DFC800F44B5F /* Movie.swift */; };
 		13A4FCCD2B96E11700F44B5F /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A4FCCC2B96E11700F44B5F /* Utils.swift */; };
 		13A4FCCF2B96E1D500F44B5F /* MovieResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A4FCCE2B96E1D500F44B5F /* MovieResponse.swift */; };
+		13A4FCD12B96E7FD00F44B5F /* PopularMoviesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A4FCD02B96E7FD00F44B5F /* PopularMoviesViewModel.swift */; };
 		13CB6D9E2B9670B600984E79 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CB6D9D2B9670B600984E79 /* SplashScreenView.swift */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +31,7 @@
 		13A4FCC92B96DFC800F44B5F /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		13A4FCCC2B96E11700F44B5F /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		13A4FCCE2B96E1D500F44B5F /* MovieResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieResponse.swift; sourceTree = "<group>"; };
+		13A4FCD02B96E7FD00F44B5F /* PopularMoviesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularMoviesViewModel.swift; sourceTree = "<group>"; };
 		13CB6D9D2B9670B600984E79 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -95,7 +97,6 @@
 		13A4FCBD2B96D9D500F44B5F /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				13A4FCC52B96DD9F00F44B5F /* NowPlayingViewModel.swift */,
 				13A4FCC32B96DD0B00F44B5F /* Movie */,
 			);
 			path = Models;
@@ -137,6 +138,8 @@
 		13A4FCC42B96DD2400F44B5F /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				13A4FCC52B96DD9F00F44B5F /* NowPlayingViewModel.swift */,
+				13A4FCD02B96E7FD00F44B5F /* PopularMoviesViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -227,6 +230,7 @@
 				13A4FCCF2B96E1D500F44B5F /* MovieResponse.swift in Sources */,
 				13A4FCC62B96DD9F00F44B5F /* NowPlayingViewModel.swift in Sources */,
 				13A4FCCD2B96E11700F44B5F /* Utils.swift in Sources */,
+				13A4FCD12B96E7FD00F44B5F /* PopularMoviesViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
