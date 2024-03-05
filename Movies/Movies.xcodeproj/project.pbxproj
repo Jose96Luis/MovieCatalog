@@ -11,6 +11,7 @@
 		13A1971F2B96686D0073A916 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A1971E2B96686D0073A916 /* ContentView.swift */; };
 		13A197212B96686D0073A916 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13A197202B96686D0073A916 /* Assets.xcassets */; };
 		13A197242B96686D0073A916 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13A197232B96686D0073A916 /* Preview Assets.xcassets */; };
+		13CB6D9E2B9670B600984E79 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CB6D9D2B9670B600984E79 /* SplashScreenView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		13A1971E2B96686D0073A916 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		13A197202B96686D0073A916 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		13A197232B96686D0073A916 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		13CB6D9D2B9670B600984E79 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				13A1971C2B96686D0073A916 /* MoviesApp.swift */,
 				13A1971E2B96686D0073A916 /* ContentView.swift */,
+				13CB6D9D2B9670B600984E79 /* SplashScreenView.swift */,
 				13A197202B96686D0073A916 /* Assets.xcassets */,
 				13A197222B96686D0073A916 /* Preview Content */,
 			);
@@ -139,6 +142,7 @@
 			files = (
 				13A1971F2B96686D0073A916 /* ContentView.swift in Sources */,
 				13A1971D2B96686D0073A916 /* MoviesApp.swift in Sources */,
+				13CB6D9E2B9670B600984E79 /* SplashScreenView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,9 +273,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Movies/Preview Content\"";
+				DEVELOPMENT_TEAM = 2PJC88X4U2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -286,6 +292,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = JLRR.Movies;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -297,9 +304,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Movies/Preview Content\"";
+				DEVELOPMENT_TEAM = 2PJC88X4U2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -314,6 +323,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = JLRR.Movies;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
